@@ -2,7 +2,6 @@
 import argparse
 from typing import Dict, List, Tuple
 from pathlib import Path
-from collections import Counter
 
 class Board:
     def __init__(self, lines: List[str]):
