@@ -92,7 +92,7 @@ class Computer:
 
 
 def main():
-    parser = argparse.ArgumentParser(prog='01', description='Determine distance between lists')
+    parser = argparse.ArgumentParser(prog='03', description='Execute partial program')
     parser.add_argument("input_filename")
     args = parser.parse_args()
 

@@ -61,7 +61,7 @@ def safe_report_exclusions(report: List[int], nExclusions: int) -> bool:
            
 
 def main():
-    parser = argparse.ArgumentParser(prog='01', description='Determine distance between lists')
+    parser = argparse.ArgumentParser(prog='02', description='Count safe reports')
     parser.add_argument("input_filename")
     args = parser.parse_args()
 

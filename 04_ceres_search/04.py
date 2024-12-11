@@ -71,7 +71,7 @@ def read_input(filename: str | Path) -> Dict[Tuple[int,int], str]:
 
 
 def main():
-    parser = argparse.ArgumentParser(prog='01', description='Determine distance between lists')
+    parser = argparse.ArgumentParser(prog='04', description='Word search, kind of')
     parser.add_argument("input_filename")
     args = parser.parse_args()
 
