@@ -68,7 +68,7 @@ def insertion_sort(layout: List[int], constraints: Dict[int, Set[int]]):
 
 
 def main():
-    parser = argparse.ArgumentParser(prog='01', description='Determine distance between lists')
+    parser = argparse.ArgumentParser(prog='05', description='Find (or fix) valid layouts')
     parser.add_argument("input_filename")
     args = parser.parse_args()
 
